@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "bodyguards",
+  "version": "${version}",
+
+  "name": "Bodyguards Mod",
+  "description": "Bodyguards!!!!!",
+  "authors": [
+    "Eggonomicon"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/bodyguards/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.eggonomicon.bodyguards.BodyguardsMod"
+    ]
+  },
+  "mixins": [
+    "bodyguards.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

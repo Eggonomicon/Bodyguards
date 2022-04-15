@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.eggonomicon.bodyguards.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "BodyguardsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
